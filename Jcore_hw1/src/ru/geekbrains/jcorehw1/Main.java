@@ -1,11 +1,73 @@
 package ru.geekbrains.jcorehw1;
 
-import ru.geekbrains.lesson2.*;
+
+
+import ru.geekbrains.lesson3.Phonebook;
+
+import java.util.HashMap;
 
 public class Main {
 
     public static void main(String[] args) {
-        //Создадим ситуацию с недопустимым размером массива
+        //lesson 3
+        //Задание1 - подсчет имен
+        String[] names = new String[]{"Вова","Коля","Маша","Вова","Вася","Дима","Маша","Олег","Маша","Вика"};
+
+        HashMap<String, Integer> namesMap = new HashMap<>();
+        for (String str : names) {
+            if (namesMap.containsKey(str)){
+                namesMap.put(str, namesMap.get(str) + 1);
+            }
+            else {
+                namesMap.put(str, 1);
+            }
+        }
+        System.out.println(namesMap);
+        System.out.println();
+
+        //Задание 2 - телефонный справочник
+        Phonebook phonebook = new Phonebook();
+        phonebook.add("Иванов", "8 903 552 45 11");
+        //Дубликат телефона не будет добавлен
+        phonebook.add("Иванов", "8 903 552 45 11");
+        phonebook.add("Петров", "8 914 445 22 01");
+        phonebook.add("Петров", "8 901 666 13 13");
+
+        phonebook.get("Иванов");
+        phonebook.get("Петров");
+        phonebook.get("Сидоров");
+    }
+}
+
+/*lesson1
+Human human = new Human(10, 10);
+        Cat cat = new Cat(8, 8);
+        Robot robot = new Robot(5, 5);
+
+        Moveable[] competitors = new Moveable[] {human, cat, robot};
+        Obstacle[] obstacles = new Obstacle[]{
+                new Treadmill(4), new Wall(4),
+                new Treadmill(6), new Wall(5),
+                new Treadmill(8), new Wall(9)};
+
+        for (Obstacle obstacle : obstacles){
+            for(Moveable competitor : competitors){
+                if(obstacle instanceof Wall){
+                    competitor.jump((Wall)obstacle);
+                }
+                else
+                    competitor.run((Treadmill)obstacle);
+            }
+            System.out.println();
+        }
+
+        for (Moveable mov : competitors) {
+            mov.info();
+        }
+ */
+
+/*lesson 2
+//Создадим ситуацию с недопустимым размером массива
         String[][] strArr = new String[3][5];
         try {
             ExceptionLesson.summator(strArr);
@@ -43,35 +105,5 @@ public class Main {
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
-        }
-
-
-    }
-}
-
-/*lesson1
-Human human = new Human(10, 10);
-        Cat cat = new Cat(8, 8);
-        Robot robot = new Robot(5, 5);
-
-        Moveable[] competitors = new Moveable[] {human, cat, robot};
-        Obstacle[] obstacles = new Obstacle[]{
-                new Treadmill(4), new Wall(4),
-                new Treadmill(6), new Wall(5),
-                new Treadmill(8), new Wall(9)};
-
-        for (Obstacle obstacle : obstacles){
-            for(Moveable competitor : competitors){
-                if(obstacle instanceof Wall){
-                    competitor.jump((Wall)obstacle);
-                }
-                else
-                    competitor.run((Treadmill)obstacle);
-            }
-            System.out.println();
-        }
-
-        for (Moveable mov : competitors) {
-            mov.info();
         }
  */
