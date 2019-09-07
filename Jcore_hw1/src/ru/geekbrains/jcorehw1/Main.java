@@ -1,41 +1,16 @@
 package ru.geekbrains.jcorehw1;
 
 
-
-import ru.geekbrains.lesson3.Phonebook;
-
-import java.util.HashMap;
+import ru.geekbrains.lesson5.ArrayProcessing;
 
 public class Main {
 
     public static void main(String[] args) {
-        //lesson 3
-        //Задание1 - подсчет имен
-        String[] names = new String[]{"Вова","Коля","Маша","Вова","Вася","Дима","Маша","Олег","Маша","Вика"};
+        final int size = 10000000;
+        float[] floatArr = new float[size];
 
-        HashMap<String, Integer> namesMap = new HashMap<>();
-        for (String str : names) {
-            if (namesMap.containsKey(str)){
-                namesMap.put(str, namesMap.get(str) + 1);
-            }
-            else {
-                namesMap.put(str, 1);
-            }
-        }
-        System.out.println(namesMap);
-        System.out.println();
-
-        //Задание 2 - телефонный справочник
-        Phonebook phonebook = new Phonebook();
-        phonebook.add("Иванов", "8 903 552 45 11");
-        //Дубликат телефона не будет добавлен
-        phonebook.add("Иванов", "8 903 552 45 11");
-        phonebook.add("Петров", "8 914 445 22 01");
-        phonebook.add("Петров", "8 901 666 13 13");
-
-        phonebook.get("Иванов");
-        phonebook.get("Петров");
-        phonebook.get("Сидоров");
+        System.out.println("Массив перезаполнен в одном потоке за "+ ArrayProcessing.refillArrInOneThread(floatArr) +" миллисекунд");
+        System.out.println("Массив перезаполнен в одном потоке за "+ ArrayProcessing.refillArrInTwoThreads(floatArr) +" миллисекунд");
     }
 }
 
@@ -107,3 +82,30 @@ Human human = new Human(10, 10);
             System.out.println(e.getMessage());
         }
  */
+/*//lesson 3
+//Задание1 - подсчет имен
+String[] names = new String[]{"Вова","Коля","Маша","Вова","Вася","Дима","Маша","Олег","Маша","Вика"};
+
+    HashMap<String, Integer> namesMap = new HashMap<>();
+        for (String str : names) {
+                if (namesMap.containsKey(str)){
+                namesMap.put(str, namesMap.get(str) + 1);
+                }
+                else {
+                namesMap.put(str, 1);
+                }
+                }
+                System.out.println(namesMap);
+                System.out.println();
+
+                //Задание 2 - телефонный справочник
+                Phonebook phonebook = new Phonebook();
+                phonebook.add("Иванов", "8 903 552 45 11");
+                //Дубликат телефона не будет добавлен
+                phonebook.add("Иванов", "8 903 552 45 11");
+                phonebook.add("Петров", "8 914 445 22 01");
+                phonebook.add("Петров", "8 901 666 13 13");
+
+                phonebook.get("Иванов");
+                phonebook.get("Петров");
+                phonebook.get("Сидоров");*/
