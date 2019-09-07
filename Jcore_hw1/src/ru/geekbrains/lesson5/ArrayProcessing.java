@@ -10,10 +10,36 @@ public class ArrayProcessing {
     public  long refillArrInOneThread(float[] floatArr){
         long begin = System.currentTimeMillis();
 
-        int arrLength = floatArr.length;
-        for (int i = 0; i < arrLength; i++){
+        int size = floatArr.length;
+        for (int i = 0; i < size; i++){
             floatArr[i] = equationCalc(floatArr[i], i);
         }
+
+        return (System.currentTimeMillis() - begin);
+    }
+
+    public  long refillArrInTwoThreads(float[] floatArr){
+        long begin = System.currentTimeMillis();
+
+        int size = floatArr.length;
+        int size1 = size / 2;
+        int size2 = size - size1;
+
+        float[] floatArr1 = new float[size1];
+        float[] floatArr2 = new float[size2];
+
+        System.arraycopy(floatArr, 0, floatArr1, 0, size1);
+        System.arraycopy(floatArr, 0, floatArr2, 0, size2);
+
+        Thread t1 = new Thread(()->{
+            refillArrInOneThread(floatArr1);
+        });
+        Thread t2 = new Thread(()->{
+            refillArrInOneThread(floatArr2);
+        });
+
+        System.arraycopy(floatArr1, 0, floatArr, 0, size1);
+        System.arraycopy(floatArr2, 0, floatArr, size1, size2);
 
         return (System.currentTimeMillis() - begin);
     }
