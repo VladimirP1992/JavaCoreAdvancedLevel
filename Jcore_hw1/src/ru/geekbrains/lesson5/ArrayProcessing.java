@@ -7,7 +7,7 @@ public class ArrayProcessing {
         return resalt;
     }
 
-    public  long refillArrInOneThread(float[] floatArr){
+    public static long refillArrInOneThread(float[] floatArr){
         long begin = System.currentTimeMillis();
 
         int size = floatArr.length;
@@ -18,7 +18,7 @@ public class ArrayProcessing {
         return (System.currentTimeMillis() - begin);
     }
 
-    public  long refillArrInTwoThreads(float[] floatArr){
+    public static long refillArrInTwoThreads(float[] floatArr){
         long begin = System.currentTimeMillis();
 
         int size = floatArr.length;
