@@ -41,6 +41,15 @@ public class ArrayProcessing {
         t1.start();
         t2.start();
 
+        try{
+            t1.join();
+            t2.join();
+        }
+        catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
+
         System.arraycopy(floatArr1, 0, floatArr, 0, size1);
         System.arraycopy(floatArr2, 0, floatArr, size1, size2);
 
