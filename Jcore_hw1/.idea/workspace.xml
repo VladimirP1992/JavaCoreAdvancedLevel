@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba63c82-096f-4fbf-87b1-66240fc34417" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ba63c82-096f-4fbf-87b1-66240fc34417" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1568141329649" expanded="true" signature="766:2017" ph="..." />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -34,11 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="9" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="72" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
             </state>
           </provider>
         </entry>
@@ -97,8 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,19 +109,14 @@
               <item name="Jcore_hw1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="geekbrains" type="462c0819:PsiDirectoryNode" />
-              <item name="jcorehw1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jcore_hw1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jcore_hw1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="geekbrains" type="462c0819:PsiDirectoryNode" />
               <item name="lesson6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,8 +203,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1164" height="1167" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19927536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20289855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,24 +404,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyClient.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="9" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="72" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyServer.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson6/MyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1568141329649" expanded="true" signature="766:2017" ph="..." />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
