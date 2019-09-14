@@ -1,5 +1,11 @@
 package ru.geekbrains.lesson7;
 
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyServer {
     private final int PORT = 8189;
 
