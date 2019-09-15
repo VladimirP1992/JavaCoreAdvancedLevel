@@ -69,7 +69,22 @@ public class ClientHandler {
             if (strFromClient.equals("/end")) {
                 return;
             }
-            myServer.broadcastMsg(name + ": " + strFromClient);
+            if(strFromClient.startsWith("/w")){
+                String[] parts = strFromClient.split("\\s");
+                String destinationNick = parts[1];
+                if(myServer.isNickBusy(destinationNick)){
+                    String msgContent = strFromClient.replaceFirst(parts[0], "").replaceFirst(parts[1], "");
+                    sendMsg("Вы написали " + destinationNick + ": " + msgContent);
+                    myServer.sendPrivateMsg("От " + name + ": " + msgContent, destinationNick);
+                }
+                else{
+                    sendMsg("В чате нет участника с ником " + destinationNick + "!");
+                }
+            }
+            else{
+                myServer.broadcastMsg(name + ": " + strFromClient);
+            }
+
         }
     }
 
