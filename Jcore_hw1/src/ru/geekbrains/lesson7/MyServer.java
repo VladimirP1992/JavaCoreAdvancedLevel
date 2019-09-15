@@ -51,6 +51,15 @@ public class MyServer {
         }
     }
 
+    public synchronized void sendPrivateMsg(String msg, String destinationNick){
+        for (ClientHandler o : clients) {
+            if (o.getName().equals(destinationNick)) {
+                o.sendMsg(msg);
+                break;
+            }
+        }
+    }
+
     public synchronized void unsubscribe(ClientHandler o) {
         clients.remove(o);
     }
