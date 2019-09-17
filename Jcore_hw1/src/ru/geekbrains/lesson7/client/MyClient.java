@@ -33,15 +33,29 @@ public class MyClient implements Runnable {
 
         setAuthorized(false);
         t.setDaemon(true);
+        t.start();
         chatArea.appendText("Клиент запущен на порту " + SERVER_PORT + "\n");
     }
 
     @Override
     public void run() {
         try {
+            while (true) {
+                String strFromServer = in.readUTF();
+                if(strFromServer.startsWith("/authok")) {
+                    setAuthorized(true);
+                    chatArea.appendText("Вы авторизованы! Для завершения сессии отправьте команду \"/end\".\n");
+                    break;
+                } else if (strFromServer.startsWith("##session##end##")) {
+                    chatArea.appendText(strFromServer.replaceFirst("##session##end## ", "") + "\n");
+                    break;
+                }
+                chatArea.appendText(strFromServer + "\n");
+            }
             while (isAuthorized) {
                 String strFromServer = in.readUTF();
-                if (strFromServer.equalsIgnoreCase("/end")) {
+                if (strFromServer.startsWith("##session##end##")) {
+                    chatArea.appendText(strFromServer.replaceFirst("##session##end## ", ""));
                     break;
                 }
                 chatArea.appendText(strFromServer);
@@ -61,17 +75,15 @@ public class MyClient implements Runnable {
     }
 
     public void authorize(){
-        if(isAuthorized)
+        if(isAuthorized){
+            chatArea.appendText("Вы уже авторизованы! Для завершения сессии отправьте команду \"/end\".\n");
             return;
+        }
+
         try {
             out.writeUTF("/auth " + loginField.getText() + " " + passwordField.getText());
             loginField.clear();
             passwordField.clear();
-            String strFromServer = in.readUTF();
-            if(strFromServer.startsWith("/authok")) {
-                setAuthorized(true);
-            }
-            chatArea.appendText(strFromServer + "\n");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -87,15 +99,12 @@ public class MyClient implements Runnable {
         }
     }
 
-    public void start(){
-        if(isAuthorized)
-            t.start();
-    }
+//    public void start(){
+//        if(isAuthorized)
+//            t.start();
+//    }
 
     public boolean isAlive(){
         return t.isAlive();
-    }
-    public void test(){
-        chatArea.appendText("Test");
     }
 }
