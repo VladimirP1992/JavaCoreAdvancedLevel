@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba63c82-096f-4fbf-87b1-66240fc34417" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Moveable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Moveable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Obstacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Treadmill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Treadmill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/jcorehw1/Wall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/ExceptionLesson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/ExceptionLesson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/MyArrayDataException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/MyArrayDataException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/MyArraySizeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson2/MyArraySizeException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson3/Phonebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson3/Phonebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson5/ArrayProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson5/ArrayProcessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson6/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson6/MyClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson6/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jcore_hw1/ru/geekbrains/lesson6/MyServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientAppGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientAppGUI.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,19 +21,19 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientAppGUI.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
               <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/BaseAuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="459">
               <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,10 +68,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            <state relative-caret-position="833">
+              <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
+                <element signature="e#2855#2856#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,14 +82,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="1309">
+              <caret line="79" column="1" lean-forward="true" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,10 +94,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="74" column="54" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="54" />
+            <state relative-caret-position="561">
+              <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1411#1412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,16 +165,16 @@
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClientGUI.fxml" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientApp.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientAppGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ServerApp.java" />
+        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" />
         <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java" />
-        <option value="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ServerApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1167" />
   </component>
@@ -202,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,12 +223,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaCoreAdvancedLevel_JFX/Lesson4_JFX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -363,7 +345,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -574,37 +556,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientAppGUI.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/BaseAuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="459">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -622,36 +594,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/ClientApp.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="97" selection-start-line="49" selection-start-column="97" selection-end-line="49" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/MyServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="1309">
+          <caret line="79" column="1" lean-forward="true" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="54" />
+        <state relative-caret-position="561">
+          <caret line="98" column="57" lean-forward="true" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="57" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
           </folding>
         </state>
       </provider>
