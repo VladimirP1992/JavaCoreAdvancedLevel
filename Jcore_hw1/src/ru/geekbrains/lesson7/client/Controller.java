@@ -21,11 +21,6 @@ public class Controller {
             return;
         }
 
-        if(client != null && client.isAlive()){
-            chatArea.appendText("Вы уже авторизованы - чтобы отключиться от сервера отправте команду \"/end\"");
-            return;
-        }
-
         if(client == null || client.getState() == State.TERMINATED){
             try {
                 client = new MyClient(loginField, passwordField, chatArea);
@@ -35,9 +30,9 @@ public class Controller {
                 client = null;
             }
         }
-        client.authorize();
-        client.start();
-
+        if(client != null) {
+            client.authorize();
+        }
     }
 
     public void clickSend(ActionEvent event) {
