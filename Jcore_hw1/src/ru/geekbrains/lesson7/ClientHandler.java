@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class ClientHandler {
+    private final long TIME_OUT = 10000;
+    private boolean isAuthorized;
+
     private MyServer myServer;
     private Socket socket;
     private DataInputStream in;
@@ -24,9 +27,29 @@ public class ClientHandler {
             this.in = new DataInputStream(socket.getInputStream());
             this.out = new DataOutputStream(socket.getOutputStream());
             this.name = "";
+
+            isAuthorized = false;
+            Thread timer = new Thread(()-> {
+                try {
+                    Thread.sleep(TIME_OUT);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                try {
+                    if (!getAuthorized()){
+                        String message = "Время отведенное на аутентификацию ("+ (TIME_OUT / 1000) +" сек.) - истекло!";
+                        out.writeUTF("##session##end## " + message);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            timer.start();
+
             new Thread(() -> {
                 try {
                     authentication();
+                    setAuthorized(true);
                     readMessages();
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -37,6 +60,13 @@ public class ClientHandler {
         } catch (IOException e) {
             throw new RuntimeException("Проблемы при создании обработчика клиента");
         }
+    }
+
+    private synchronized boolean getAuthorized(){
+        return isAuthorized;
+    }
+    private synchronized void setAuthorized(boolean value){
+        isAuthorized = value;
     }
 
     public void authentication() throws IOException {
@@ -66,7 +96,7 @@ public class ClientHandler {
         while (true) {
             String strFromClient = in.readUTF();
             System.out.println("от " + name + ": " + strFromClient);
-            if (strFromClient.equals("/end")) {
+            if (strFromClient.equalsIgnoreCase("/end")) {
                 return;
             }
             if(strFromClient.startsWith("/w")){
