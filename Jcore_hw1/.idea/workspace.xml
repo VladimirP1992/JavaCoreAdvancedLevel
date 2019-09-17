@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba63c82-096f-4fbf-87b1-66240fc34417" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/geekbrains/lesson7/client/MyClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="2ba63c82-096f-4fbf-87b1-66240fc34417" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -354,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20613615" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20613615" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
