@@ -60,11 +60,21 @@ public class MyServer {
         }
     }
 
+    public synchronized void broadcastClientsList() {
+        StringBuilder sb = new StringBuilder("/clients ");
+        for (ClientHandler o : clients) {
+            sb.append(o.getName() + " ");
+        }
+        broadcastMsg(sb.toString());
+    }
+
     public synchronized void unsubscribe(ClientHandler o) {
         clients.remove(o);
+        broadcastClientsList();
     }
 
     public synchronized void subscribe(ClientHandler o) {
         clients.add(o);
+        broadcastClientsList();
     }
 }
